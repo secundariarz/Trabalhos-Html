@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html , body{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.light {
+    margin: auto;
+    position: relative;
+    bottom: 233px;
+    left: 7px;
+    background-color: white;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.03;
+}
+
+.light2 {
+    margin: auto;
+    position: relative;
+    bottom: 1030px;
+    left: 7px;
+    background-color: white;
+    width: 850px;
+    height: 850px;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.03;
+}
+
+.light3 {
+    margin: auto;
+    position: relative;
+    bottom: 1920px;
+    left: 7px;
+    background-color: white;
+    width: 950px;
+    height: 950px;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.03;
+}
+
+.light4 {
+    margin: auto;
+    position: relative;
+    bottom: 2920px;
+    left: 7px;
+    background-color: white;
+    width: 1050px;
+    height: 1050px;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.03;
+}
+
+.light5 {
+    margin: auto;
+    position: relative;
+    bottom: 4020px;
+    left: 7px;
+    background-color: white;
+    width: 1150px;
+    height: 1150px;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.03;
+}
+.moon {
+    margin: auto;
+    position: absolute;
+    bottom: 200px;
+    background-color: white;
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    z-index: 0;
+    right: 510px;
+
+}
+
+.moo-hole {
+    background-color: rgb(219, 219, 219);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -170px;
+    right: -90px;
+}
+
+.moo-small {
+    background-color: rgb(219, 219, 219);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 90px;
+    right: -250px;
+}
+
+.moo-smaller {
+    background-color: rgb(219, 219, 219);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+    right: -300px;
+}
+
+
+.banner #scene .layer:nth-child(1) img {
+   position: relative;
+   top: 250px;
+   right: -900px;
+   z-index: 1;
+   width: 560px;
+}
+
+.banner #scene .layer:nth-child(2) img {
+    position: relative;
+    top: 600px;
+    right: -700px;
+    z-index: 1;
+    width: 550px;
+ }
+
+ .banner #scene .layer:nth-child(3) img {
+    position: relative;
+    top: 500px;
+    right: -130px;
+    z-index: 1;
+    width: 550px;
+ }
+
+ .banner #scene .layer:nth-child(4) img {
+    position: relative;
+    top: 20px;
+    right: -350px;
+    z-index: 0;
+    width: 550px;
+    opacity: 0.4;
+ }
+
+
+.banner #scene {
+    z-index: 1;
+}
+
+.p {
+    z-index: 1;
+    color: #ff4d5a;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 380px;
+    left: 450px;
+    font-size: 90px;
+}
+
+.tipe {
+    z-index: 1;
+    color: #ff4d5a;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 480px;
+    left: 650px;
+    font-size: 20px;
+}
